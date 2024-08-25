@@ -6,13 +6,13 @@ This project is a Medical Test Management System developed using MIPS assembly l
 ## Features
 • Add New Medical Test: Store a new medical test with required data, including patient ID, test name, test date, and result. The system checks the validity of the input data.
 
-• Search for a Test by Patient ID:
+• Search for a Test by Patient ID: 
 
-  • Retrieve all patient tests.
+  * Retrieve all patient tests.
 
-  • Retrieve all abnormal patient tests.
+  * Retrieve all abnormal patient tests.
 
-  • Retrieve all patient tests within a specified period.
+  * Retrieve all patient tests within a specified period.
 
 
 • Search for Abnormal Tests: Retrieve all abnormal patient tests based on the input medical test.
@@ -26,4 +26,14 @@ This project is a Medical Test Management System developed using MIPS assembly l
 • Error Handling: The system includes robust error handling for invalid file names, non-existent tests, non-existent patient IDs, and more.
 
 • Data Validation: Validates user input to ensure proper data types (e.g., integers for ID, valid dates) and handles potential errors.
+
+## System Functionality
+The system is built with a text-based menu, allowing users to:
+  * Add, update, and delete medical tests.
+  * Search and retrieve tests based on various criteria.
+  * Calculate average test values.
+  * Handle errors and validate data inputs.
+
+
+
 
